@@ -25,7 +25,7 @@ resource "aws_security_group" "demo" {
     from_port = 22
     to_port = 22
     protocol = "tcp"
-    cidr_blocks = ["70.166.189.33/32"]
+    cidr_blocks = ["70.166.189.33/32", "174.17.176.126/32"]
   }
 
   # Enable SSH inbound
